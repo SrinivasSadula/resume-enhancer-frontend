@@ -1,1 +1,80 @@
-<h1>Welcome to Resume Enhancer!</h1><p>Use the Enhancer tool to improve your resume.</p>
+<!-- <section class="hero">
+  <h1>AI Resume Enhancer</h1>
+  <p>Create a professional resume in minutes.</p>
+  <button (click)="start()">Try it Free</button>
+</section>
+
+<section class="features">
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>✅ Auto-format with ATS-friendly layout</li>
+    <li>✅ Instant PDF Export</li>
+    <li>✅ Optimized using AI insights</li>
+  </ul>
+</section>
+
+<section class="screenshots">
+  <img src="assets/preview1.png" alt="Preview 1" />
+  <img src="assets/preview2.png" alt="Preview 2" />
+</section>
+
+<section class="cta">
+  <h2>Start Free, Upgrade Later</h2>
+  <button (click)="start()">Get Started</button>
+</section> -->
+
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="logo">🧠 Resume Enhancer</div>
+  <h1>Enhance. Impress. Get Hired.</h1>
+  <p>Your AI-powered resume builder with one-click PDF export.</p>
+  <div class="cta-buttons">
+    <button>Get Started</button>
+    <button class="secondary">Learn More</button>
+  </div>
+</section>
+
+<section class="features">
+  <h2>Why Choose Us?</h2>
+  <!-- <ul>
+    <li>✅ Auto-format with ATS-friendly layout</li>
+    <li>✅ Instant PDF Export</li>
+    <li>✅ Optimized using AI insights</li>
+  </ul> -->
+  <div class="features-list">
+    <p>✅ Auto-format with ATS-friendly layout</p>
+    <p>✅ Instant PDF Export</p>
+    <p>✅ Optimized using AI insights</p>
+  </div>
+</section>
+<!-- Stats Section -->
+<section class="stats">
+  <div *ngFor="let s of stats" class="stat-card">
+    <h2>{{ s.value }}</h2>
+    <p>{{ s.title }}</p>
+    <span>{{ s.delta }}</span>
+  </div>
+</section>
+
+<!-- Logos Section -->
+<!-- <section class="logos">
+  <p>Trusted by recruiters at</p>
+  <div class="logo-row">
+    <img src="assets/tcs.svg" alt="TCS" />
+    <img src="assets/accenture.svg" alt="Accenture" />
+    <img src="assets/wipro.svg" alt="Wipro" />
+    <img src="assets/hcl.svg" alt="HCL" />
+  </div>
+</section> -->
+
+<!-- Integrations Section -->
+<section class="integrations">
+  <h3>Integrates with</h3>
+  <p>LinkedIn · Google Docs · ChatGPT · Gmail</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Made with ❤️ by Srinivas | © 2025 Resume Enhancer</p>
+</footer>

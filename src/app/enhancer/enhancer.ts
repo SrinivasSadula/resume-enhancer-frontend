@@ -6,16 +6,15 @@ import jsPDF from 'jspdf';
 
 @Component({
   selector: 'app-enhancer',
-  standalone: true,
   imports: [
     CommonModule,       // ✅ Needed for *ngIf
     FormsModule,        // ✅ Needed for [(ngModel)]
   ],
-  templateUrl: './enhancer.component.html',
-  styleUrls: ['./enhancer.component.css'] // Optional, add if you use styles
+  templateUrl: './enhancer.html',
+  styleUrl: './enhancer.css'
 })
-export class EnhancerComponent {
-  resumeText = '';
+export class Enhancer {
+ resumeText = '';
   jobRole = '';
   enhancedText = '';
   private http = inject(HttpClient); // ✅ Proper use inside class context

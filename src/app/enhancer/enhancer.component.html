@@ -1,0 +1,18 @@
+<div class="enhancer-container">
+  <h2>🚀 Resume Enhancer</h2>
+
+  <div class="form-grid">
+    <textarea [(ngModel)]="resumeText" placeholder="Paste your resume here..."></textarea>
+    <input [(ngModel)]="jobRole" placeholder="Target Job Role (e.g., Frontend Developer)" />
+  </div>
+
+  <div class="actions">
+    <button (click)="enhanceResume()">✨ Enhance</button>
+    <button (click)="downloadPDF()">📄 Download PDF</button>
+  </div>
+
+  <div class="result-box" *ngIf="enhancedText">
+    <h3>Enhanced Output:</h3>
+    <pre>{{ enhancedText }}</pre>
+  </div>
+</div>

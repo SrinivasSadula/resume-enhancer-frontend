@@ -19,5 +19,19 @@ body {
     text-decoration: underline;
     color: #2563eb;
   }
+
+  .integrations {
+  padding: 5px 10px;
+  background: #f0f4f8;
+  text-align: center;
+}
   
-  
+footer {
+    padding: 4px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+    background: #2563eb;
+    font-style: italic;
+}

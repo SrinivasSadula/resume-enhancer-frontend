@@ -1,19 +1,3 @@
-/* .hero, .features, .screenshots, .cta {
-  padding: 2rem;
-  text-align: center;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-} */
-
-
-
 .hero {
   padding: 60px 20px;
   text-align: center;
@@ -23,13 +7,10 @@ button {
   padding: 5px;
   text-align: center;
 }
-
-
 .hero h1 {
   font-size: 2.5rem;
   margin: 10px 0;
 }
-
 .cta-buttons button {
   margin: 10px;
   padding: 12px 24px;
@@ -38,13 +19,12 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
-
 button.secondary {
   background-color: #222;
   color: white;
 }
 
-.stats {
+/* .stats {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -59,7 +39,7 @@ button.secondary {
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
+} */
 
 .logos {
   text-align: center;
@@ -71,21 +51,6 @@ button.secondary {
   margin: 0 20px;
 }
 
-.integrations {
-  padding: 5px 10px;
-  background: #f0f4f8;
-  text-align: center;
-}
-
-footer {
-    padding: 4px;
-    font-size: 15px;
-    text-align: center;
-    font-weight: 600;
-    color: #000000;
-    background: #2563eb;
-    font-style: italic;
-}
 .stat-card {
   flex: 1 1 200px;
   margin: 10px;
@@ -100,4 +65,49 @@ footer {
 
 .stat-card:hover,.cta-buttons.button:hover {
   transform: translateY(-4px);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 24px;
+  width: 230px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+
+  .icon {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  .number {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .label {
+    font-size: 16px;
+    color: #333;
+    margin-top: 4px;
+  }
+
+  .change {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #16a34a;
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "resume-enhancer-frontend",
-  "version": "1.0.4",
+  "version": "1.0.5s",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

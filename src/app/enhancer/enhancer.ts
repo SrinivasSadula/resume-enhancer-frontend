@@ -25,7 +25,7 @@ export class Enhancer {
       return;
     }
 
-    this.http.post<{ result: string }>('https://resume-enhancer-backend-ydor.onrender.com/api/enhance', {
+    this.http.post<{ result: string }>('https://resume-enhancer-backend-production.up.railway.app/api/enhance', {
       resume: this.resumeText,
       jobRole: this.jobRole
     }).subscribe({

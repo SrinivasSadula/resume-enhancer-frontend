@@ -1,4 +1,3 @@
-# Fronend
 # 📄 ResumePro – AI-Powered Resume Builder
 
 ![Deployment](https://img.shields.io/badge/Live--Demo-Click%20Here-brightgreen)
